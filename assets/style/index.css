@@ -1,0 +1,99 @@
+*{
+    font-family: 'Space Mono', 'monospace';
+}
+.app{
+    padding: 40px 77px 24px;
+}
+.logo{
+    font-family: 'Inconsolata';
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.main{
+    display: flex;
+    margin-top: 200px;
+}
+.main-img{
+    width: 540px;
+    height: 448px;
+}
+.main-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.main-content{
+    margin-left: 119px;
+}
+.main-content-title{
+    margin: 0;
+    font-size: 64px;
+    font-weight: 700;
+    max-width: 586px;
+    letter-spacing: -0.035em;
+}
+.main-content-desc{
+    margin-top: 36px;
+    margin-bottom: 88px;
+    font-weight: 400;
+    font-size: 24px;
+    max-width: 381px;
+    letter-spacing: -0.035em;
+}
+.button{
+    background-color: #333333;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 24px 0;
+    font-weight: 700;
+    font-size: 14px;
+    width: 216px;
+    text-align: center;
+}
+.footer{
+    margin-top: 308px ;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    color: #BDBDBD;
+}
+
+@media screen and (max-width:426px){
+    .app{
+        padding: 20px 24px;
+    }
+    .main{
+        flex-direction: column;
+        margin-top: 64px;
+        align-items: center;
+    }
+    .main-img{
+        width: 287px;
+        height: 238px;
+    }
+    .main-content{
+        margin-left: 0;
+        margin-top: 78px;
+        
+    }
+    .main-content-title{
+        font-size: 48px;
+        letter-spacing: -0.035em;
+        max-width: 350px;
+    }
+    .main-content-desc{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 18px;
+        max-width: 350px;
+    }
+    .button{
+        margin-top: 66px;
+    }
+    .footer{
+        font-weight: 500;
+        margin-top: 114px;
+    }
+
+}    
